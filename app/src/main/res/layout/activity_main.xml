@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.l400.unit_conversion.MainActivity">
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/speed"
+    android:onClick="speedconversion"
+    android:textStyle="bold"
+    android:text="Conversion OF Speed"
+    android:textSize="20dp"
+    android:layout_marginTop="115dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/distance"
+        android:onClick="distanceconversion"
+        android:layout_below="@+id/speed"
+        android:textStyle="bold"
+        android:text="Conversion OF Distance"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/weight"
+        android:onClick="weightconversion"
+        android:textStyle="bold"
+        android:text="Conversion OF weight"
+        android:textSize="20dp"
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperature"
+        android:textStyle="bold"
+        android:onClick="temperatureconversion"
+        android:text="Conversion OF Temperature"
+        android:textSize="20dp"
+        android:layout_below="@+id/weight"
+        android:layout_marginTop="15dp"/>
+</RelativeLayout>

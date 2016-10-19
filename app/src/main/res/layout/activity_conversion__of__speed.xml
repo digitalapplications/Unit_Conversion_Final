@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.l400.unit_conversion.Conversion_Of_Speed">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="what do you want to convert"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:id="@+id/te1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        />
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/spinner11"
+        android:layout_below="@+id/te1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttttt"
+        android:layout_toRightOf="@+id/spinner11"
+        android:layout_marginLeft="20dp"
+        android:text="Submit"
+        android:layout_marginTop="35dp"
+        />
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_below="@id/spinner11"
+    android:text="Convert From"
+    android:textSize="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:textStyle="bold"
+        android:id="@+id/tex2"
+
+    />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/tex2"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Value"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_below="@id/spinner"
+        android:id="@+id/text3"
+
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/value"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/text3"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert To"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/value"
+android:id="@+id/text4"
+        />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/spinner1"
+        android:layout_below="@+id/text4"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:id="@+id/buttonn"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:text="Result"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="20dp"
+        android:layout_below="@+id/buttonn"
+        android:id="@+id/text5"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/tvresult"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/text5"
+
+        />
+
+
+</RelativeLayout>
